@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+*::selection{
+  background-color: #402f2c;
+  color: white;
+}
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+header {
+  background: #f9f6f5;
+}
+.home input {
+  outline: none;
+  border: none;
+}
+.home label {
+  background-color: white;
+  padding: 3px;
+}
+.home a {
+  text-decoration: none;
+  background: #402f2c;
+  color: white;
+  padding: 1px 5px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.home a:hover {
+  background-color: transparent;
+  color: #402f2c;
+}
+.home input::placeholder {
+  padding-left: 7px;
+}
+.home button {
+  background: #402f2c;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  margin-top: 3rem;
+  background: linear-gradient(to left, transparent 50%, #402f2c 50%);
+  background-size: 200%;
+  background-position: left;
+  border: 1px solid #402f2c;
+  transition: 0.4s ease;
+}
+.home button:hover {
+  background-position: right;
+  color: black;
+  border: 1px dashed #402f2c;
+}
+.spon .row {
+  border-top: 1px solid rgba(128, 128, 128, 0.226);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.192);
+  padding: 20px 0px;
+}
+.product a {
+  color: black;
+  font-weight: bold;
+}
+.product .bor {
+  border: 1px solid rgba(128, 128, 128, 0.205);
+  border-top: none;
+  padding: 20px;
+  max-width: 600px;
+}
+.product button {
+  background: #402f2c;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  transition: 0.4s ease;
+  border: 1px solid #402f2c;
+}
+.product button:hover {
+  background-position: right;
+  color: black;
+  border: 1px dashed #402f2c;
+}
+.product .btnn {
+  background-color: white;
+  border: 1px solid #402f2c;
+  color: #402f2c;
+}
+.people {
+  background: #fdf8f5;
+}
+.people h1 {
+  border-bottom: 3px solid #222222;
+  width: 40%;
+}
+.button {
+  background: #402f2c;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 6px 16px;
+  transition: 0.4s ease;
+  border: 1px solid #402f2c;
+}
+button:hover {
+  background-position: right;
+  color: gray;
+  border: 1px dashed #402f2c;
+}
+.ps img {
+  transition: 0.9s ease-in-out;
+}
+.ps img:hover {
+  box-shadow: 0 0 0 50px green;
+  transform: scale(1.09);
+}
+footer {
+  background: #fafafa;
+  margin-top: 10000px;
+}
+
+footer input {
+  outline: none;
+  border: none;
+  padding: 7px 0px;
+  width: 75%;
+}
+@media (max-width: 1400px) {
+  footer input {
+    outline: none;
+    border: none;
+    padding: 7px 0px;
+  }
+  footer label {
+    background-color: white;
+    padding: 5px;
+  }
+}
+footer label {
+  background-color: white;
+  padding: 5px;
+}
+footer a {
+  text-decoration: none;
+  background: #402f2c;
+  color: white;
+  padding: 7px 10px;
+  transition: 0.4s;
+}
+footer a:hover {
+  background-color: transparent;
+  color: #402f2c;
+}
+footer input::placeholder {
+  padding-left: 7px;
+}
+
+.form a{
+    color: black;
+    background-color: transparent;
+}
