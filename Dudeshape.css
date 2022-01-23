@@ -10,9 +10,9 @@
   background-color: #402f2c;
   color: white;
 }
-html{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+body ,html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 header {
   background: #f9f6f5;
